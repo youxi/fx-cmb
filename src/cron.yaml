@@ -1,0 +1,66 @@
+cron:
+- description: every day exchange rate update
+  url: /cron_service 
+  schedule: every mon,tue,wed,thu,fri 08:10
+  timezone: Asia/Shanghai
+- description: every day exchange rate update
+  url: /cron_service 
+  schedule: every mon,tue,wed,thu,fri 09:00
+  timezone: Asia/Shanghai
+- description: every day exchange rate update
+  url: /cron_service 
+  schedule: every mon,tue,wed,thu,fri 10:00
+  timezone: Asia/Shanghai
+- description: every day exchange rate update
+  url: /cron_service 
+  schedule: every mon,tue,wed,thu,fri 11:00
+  timezone: Asia/Shanghai
+- description: every day exchange rate update
+  url: /cron_service 
+  schedule: every mon,tue,wed,thu,fri 12:00
+  timezone: Asia/Shanghai
+- description: every day exchange rate update
+  url: /cron_service 
+  schedule: every mon,tue,wed,thu,fri 13:00
+  timezone: Asia/Shanghai
+- description: every day exchange rate update
+  url: /cron_service 
+  schedule: every mon,tue,wed,thu,fri 14:00
+  timezone: Asia/Shanghai
+- description: every day exchange rate update
+  url: /cron_service
+  schedule: every mon,tue,wed,thu,fri 15:00
+  timezone: Asia/Shanghai
+- description: every day exchange rate update
+  url: /cron_service
+  schedule: every mon,tue,wed,thu,fri 16:00
+  timezone: Asia/Shanghai
+- description: every day exchange rate update
+  url: /cron_service
+  schedule: every mon,tue,wed,thu,fri 17:00
+  timezone: Asia/Shanghai
+- description: every day exchange rate update
+  url: /cron_service
+  schedule: every mon,tue,wed,thu,fri 18:00
+  timezone: Asia/Shanghai
+- description: every day exchange rate update
+  url: /cron_service
+  schedule: every mon,tue,wed,thu,fri 19:00
+  timezone: Asia/Shanghai
+- description: every day exchange rate update
+  url: /cron_service
+  schedule: every mon,tue,wed,thu,fri 20:00
+  timezone: Asia/Shanghai
+- description: every day exchange rate update
+  url: /cron_service
+  schedule: every mon,tue,wed,thu,fri 21:00
+  timezone: Asia/Shanghai
+- description: every day exchange rate update
+  url: /cron_service
+  schedule: every mon,tue,wed,thu,fri 22:00
+  timezone: Asia/Shanghai
+
+- description: Daily exception report
+  url: /_ereporter?sender=maming622@gmail.com&delete=false
+  schedule: every day 22:10
+  timezone: Asia/Shanghai
